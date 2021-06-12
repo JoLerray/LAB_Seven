@@ -33,8 +33,7 @@ int main()
 	}
 	catch (const std::out_of_range&ex)
 	{
-		b1.delFlower();
-		b1.addFlower(Fiolka);
+		
 		cout << ex.what();
 	}
 	catch (const std::invalid_argument&ex)
